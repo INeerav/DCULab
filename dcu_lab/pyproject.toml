@@ -1,14 +1,15 @@
 [tool.poetry]
-name = "ca-labs"
+name = "ca-labs-new"
 version = "0.1.0"
-description = "draft work for the ca labs"
+description = "to experiment new samples and for general play around"
 authors = ["Neerav <patel.nirav100@gmail.com>"]
 license = "open"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-pandas = "1.5.3"
+python = ">=3.10,<3.12"
+ydata-profiling = "^4.5.1"
+matplotlib = "3.7"
 
 
 [build-system]
